@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <p>Name: {{task.name}}</p>
+        {% if task.description %}
+            <p>Description: {{task.description}}</p>
+        {% endif %}
+    </div>
+{% endblock %}
