@@ -58,6 +58,8 @@ class TaskType extends AbstractType
                     )
                 ]
             ])
+
+        
             ->add('result', CheckboxType::class, [
                 'label' => "Done",
             ])
